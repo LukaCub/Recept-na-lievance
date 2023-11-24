@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(158, 184, 217);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.established {
+    text-align: center;
+}
+
+img {
+    width: 95%;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    color: rgb(50, 63, 92);
+}
+
+.menu {
+    width: 80%;
+    background-color: rgb(124, 147, 195);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+  }
+
+.price {
+    text-align: right;
+    width: 25%;
+    color: rgb(238, 245, 255);
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(162, 87, 114);
+    border-color: rgb(162, 87, 114);
+  }
+  
+.bottom-line {
+    margin-top: 25px;
+}
+
+/* Ordered list style*/
+
+ol {
+    list-style-position: outside;
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 10px;
+}
+/*li:before {
+  content: counter(item);
+  margin-right: 20px;
+  font-size: 100%;
+  background-color: rgb(50, 63, 92);
+  color: rgb(238, 245, 255);
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 11px;
+
+}*/
+
+/* Button */
+
+.center {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn-default {
+    background-color: rgb(158, 184, 217);
+    border-radius: 5px; /* Making border radius */
+    width: auto; /* Making auto-sizable width */
+    padding: 10px 20px 10px 20px; /* Making space around letters */
+}
+
+.btn {
+    color: rgb(238, 245, 255);
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    font-size: 18px;
+  }
+
+.btn:link {
+    text-decoration: none;
+  }
+  
+.btn:visited {
+    color: aquamarine;
+  }
+  
+.btn:hover {
+    color: rgb(162, 87, 114);
+  }
+  
+.btn:active {
+    color: rgb(162, 87, 114);
+  }
+  
+  
